@@ -8,6 +8,39 @@ bin/
 obj/
 
 
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper
+*.DotSettings.user
+git checkout -b feature/ejemplo
+git add .
+git commit -m "Cambio de prueba para crear Pull Request"
+git push --set-upstream origin feature/ejemplo
+
+
+
+git 
 
 
